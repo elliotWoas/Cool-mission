@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon src/bot.js"
+    "start": "nodemon src/bot/bot.js"
   },
   "author": "",
   "license": "ISC",
