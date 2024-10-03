@@ -1,0 +1,17 @@
+{
+  "name": "cool-mission",
+  "version": "1.0.0",
+  "description": "A Telegram bot that gives cool missions to people, they get rewards for doing them",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "grammy": "^1.30.0",
+    "mongoose": "^8.7.0"
+  }
+}
