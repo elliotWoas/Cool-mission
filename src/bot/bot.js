@@ -15,7 +15,8 @@ bot.on("message", (ctx) => {
 });
 
 //start the bot with functionality
-const start = async () => {;
+const start = async () => {
+  await connectDB();
   bot.start();
   console.log("bot running...");
 };
