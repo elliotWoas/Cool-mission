@@ -8,12 +8,15 @@ export const contactRqButton = new Keyboard()
 
 //mainMenu for all user
 export const mainMenu = new Keyboard()
-  .text("آموزش ها")
-  .text("درباره ما")
+  .text("آموزش ها").row()
   .text("ماموریت ها ")
-  .text("کد های که نیازه ");
+  .text("محصولات").row()
+  .text("درباره ما")
+  .text("کد های که نیازه ")
+  .oneTime()
+  .resized()
 
-  export default {
-    contactRqButton,
-    mainMenu,
-  }
+export default {
+  contactRqButton,
+  mainMenu,
+};
